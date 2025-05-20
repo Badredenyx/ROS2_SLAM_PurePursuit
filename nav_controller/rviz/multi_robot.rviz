@@ -1,0 +1,37 @@
+# File: rviz/multi_robot.rviz
+# A simple RViz configuration to visualize multiple robots
+Visualization Manager:
+  Class: "rviz/VisualizationManager"
+  Displays:
+    - Name: Grid
+      Class: "rviz/Grid"
+      Enabled: true
+      Properties:
+        Plane Cell Count: 10
+        Line Style: Lines
+    - Name: TF
+      Class: "rviz/TF"
+      Enabled: true
+    - Name: Robot 0 Odometry
+      Class: "rviz/Path"
+      Enabled: true
+      Topic: "/robot_0/odom"
+      Color: 100; 150; 255
+    - Name: Robot 1 Odometry
+      Class: "rviz/Path"
+      Enabled: true
+      Topic: "/robot_1/odom"
+      Color: 255; 100; 150
+    - Name: Global Map
+      Class: "rviz/Map"
+      Enabled: true
+      Topic: "/robot_0/map"
+    - Name: Path Planner
+      Class: "rviz/Path"
+      Enabled: true
+      Topic: "/robot_0/path"
+
+    # Add additional Path and Pose markers per robot as needed
+
+Global Options:
+  Fixed Frame: world

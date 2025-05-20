@@ -1,0 +1,55 @@
+[1.117s] Invoking command in '/home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/nav_controller': PYTHONPATH=/home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/nav_controller build --build-base /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/build install --record /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/install.log --single-version-externally-managed install_data
+[1.382s] running egg_info
+[1.383s] creating ../build/nav_controller/nav_controller.egg-info
+[1.384s] writing ../build/nav_controller/nav_controller.egg-info/PKG-INFO
+[1.384s] writing dependency_links to ../build/nav_controller/nav_controller.egg-info/dependency_links.txt
+[1.385s] writing entry points to ../build/nav_controller/nav_controller.egg-info/entry_points.txt
+[1.386s] writing requirements to ../build/nav_controller/nav_controller.egg-info/requires.txt
+[1.387s] writing top-level names to ../build/nav_controller/nav_controller.egg-info/top_level.txt
+[1.389s] writing manifest file '../build/nav_controller/nav_controller.egg-info/SOURCES.txt'
+[1.392s] reading manifest file '../build/nav_controller/nav_controller.egg-info/SOURCES.txt'
+[1.394s] writing manifest file '../build/nav_controller/nav_controller.egg-info/SOURCES.txt'
+[1.394s] running build
+[1.394s] running build_py
+[1.394s] creating /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/build
+[1.394s] creating /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/build/lib
+[1.396s] creating /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/build/lib/nav_controller
+[1.397s] copying nav_controller/control.py -> /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/build/lib/nav_controller
+[1.398s] copying nav_controller/smoother.py -> /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/build/lib/nav_controller
+[1.399s] copying nav_controller/__init__.py -> /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/build/lib/nav_controller
+[1.399s] copying nav_controller/planner.py -> /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/build/lib/nav_controller
+[1.399s] copying nav_controller/navigation_node.py -> /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/build/lib/nav_controller
+[1.401s] copying nav_controller/code.py -> /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/build/lib/nav_controller
+[1.402s] copying nav_controller/pure_pursuit.py -> /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/build/lib/nav_controller
+[1.402s] copying nav_controller/utils.py -> /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/build/lib/nav_controller
+[1.402s] running install
+[1.403s] running install_lib
+[1.403s] creating /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/lib/python3.10/site-packages/nav_controller
+[1.404s] copying /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/build/lib/nav_controller/control.py -> /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/lib/python3.10/site-packages/nav_controller
+[1.405s] copying /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/build/lib/nav_controller/smoother.py -> /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/lib/python3.10/site-packages/nav_controller
+[1.405s] copying /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/build/lib/nav_controller/__init__.py -> /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/lib/python3.10/site-packages/nav_controller
+[1.406s] copying /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/build/lib/nav_controller/planner.py -> /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/lib/python3.10/site-packages/nav_controller
+[1.406s] copying /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/build/lib/nav_controller/navigation_node.py -> /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/lib/python3.10/site-packages/nav_controller
+[1.406s] copying /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/build/lib/nav_controller/code.py -> /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/lib/python3.10/site-packages/nav_controller
+[1.408s] copying /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/build/lib/nav_controller/pure_pursuit.py -> /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/lib/python3.10/site-packages/nav_controller
+[1.408s] copying /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/build/lib/nav_controller/utils.py -> /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/lib/python3.10/site-packages/nav_controller
+[1.409s] byte-compiling /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/lib/python3.10/site-packages/nav_controller/control.py to control.cpython-310.pyc
+[1.411s] byte-compiling /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/lib/python3.10/site-packages/nav_controller/smoother.py to smoother.cpython-310.pyc
+[1.411s] byte-compiling /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/lib/python3.10/site-packages/nav_controller/__init__.py to __init__.cpython-310.pyc
+[1.412s] byte-compiling /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/lib/python3.10/site-packages/nav_controller/planner.py to planner.cpython-310.pyc
+[1.413s] byte-compiling /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/lib/python3.10/site-packages/nav_controller/navigation_node.py to navigation_node.cpython-310.pyc
+[1.413s] byte-compiling /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/lib/python3.10/site-packages/nav_controller/code.py to code.cpython-310.pyc
+[1.414s] byte-compiling /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/lib/python3.10/site-packages/nav_controller/pure_pursuit.py to pure_pursuit.cpython-310.pyc
+[1.416s] byte-compiling /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/lib/python3.10/site-packages/nav_controller/utils.py to utils.cpython-310.pyc
+[1.416s] running install_data
+[1.416s] creating /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/share/ament_index
+[1.416s] creating /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/share/ament_index/resource_index
+[1.417s] creating /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/share/ament_index/resource_index/packages
+[1.417s] copying resource/nav_controller -> /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/share/ament_index/resource_index/packages
+[1.418s] copying package.xml -> /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/share/nav_controller
+[1.418s] running install_egg_info
+[1.420s] Copying ../build/nav_controller/nav_controller.egg-info to /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/lib/python3.10/site-packages/nav_controller-0.0.0-py3.10.egg-info
+[1.425s] running install_scripts
+[1.445s] Installing control script to /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/lib/nav_controller
+[1.447s] writing list of installed files to '/home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/install.log'
+[1.472s] Invoked command in '/home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/nav_controller' returned '0': PYTHONPATH=/home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/install/nav_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/nav_controller build --build-base /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/build install --record /home/badredynex/Project/ROS2-PurePursuitControl-PathPlanning-Tracking/build/nav_controller/install.log --single-version-externally-managed install_data
