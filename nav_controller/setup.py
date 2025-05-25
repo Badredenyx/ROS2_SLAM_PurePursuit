@@ -7,9 +7,12 @@ setup(
     version='0.0.0',
     packages=[package_name],
     data_files=[
-        ('share/ament_index/resource_index/packages',
-            ['resource/' + package_name]),
-        ('share/' + package_name, ['package.xml']),
+        ("share/ament_index/resource_index/packages", ["resource/nav_controller"]),
+        ("share/nav_controller", ["package.xml"]),
+        ("share/nav_controller/launch", [
+            "launch/multi_robot.launch.py",
+            # add any other launch scripts here
+        ]),
     ],
     install_requires=['setuptools'],
     zip_safe=True,

@@ -1,0 +1,22 @@
+[0.888s] Invoking command in '/home/badredynex/Project/ROS2_SLAM_PurePursuit/nav_controller': PYTHONPATH=/home/badredynex/Project/ROS2_SLAM_PurePursuit/build/nav_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/badredynex/Project/ROS2_SLAM_PurePursuit/install/nav_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/nav_controller build --build-base /home/badredynex/Project/ROS2_SLAM_PurePursuit/build/nav_controller/build install --record /home/badredynex/Project/ROS2_SLAM_PurePursuit/build/nav_controller/install.log --single-version-externally-managed install_data
+[1.256s] running egg_info
+[1.258s] writing ../build/nav_controller/nav_controller.egg-info/PKG-INFO
+[1.259s] writing dependency_links to ../build/nav_controller/nav_controller.egg-info/dependency_links.txt
+[1.260s] writing entry points to ../build/nav_controller/nav_controller.egg-info/entry_points.txt
+[1.260s] writing requirements to ../build/nav_controller/nav_controller.egg-info/requires.txt
+[1.261s] writing top-level names to ../build/nav_controller/nav_controller.egg-info/top_level.txt
+[1.263s] reading manifest file '../build/nav_controller/nav_controller.egg-info/SOURCES.txt'
+[1.267s] writing manifest file '../build/nav_controller/nav_controller.egg-info/SOURCES.txt'
+[1.268s] running build
+[1.268s] running build_py
+[1.269s] running install
+[1.269s] running install_lib
+[1.272s] running install_data
+[1.272s] copying launch/multi_robot.launch.py -> /home/badredynex/Project/ROS2_SLAM_PurePursuit/install/nav_controller/share/nav_controller/launch
+[1.273s] running install_egg_info
+[1.275s] removing '/home/badredynex/Project/ROS2_SLAM_PurePursuit/install/nav_controller/lib/python3.10/site-packages/nav_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.275s] Copying ../build/nav_controller/nav_controller.egg-info to /home/badredynex/Project/ROS2_SLAM_PurePursuit/install/nav_controller/lib/python3.10/site-packages/nav_controller-0.0.0-py3.10.egg-info
+[1.276s] running install_scripts
+[1.318s] Installing control script to /home/badredynex/Project/ROS2_SLAM_PurePursuit/install/nav_controller/lib/nav_controller
+[1.318s] writing list of installed files to '/home/badredynex/Project/ROS2_SLAM_PurePursuit/build/nav_controller/install.log'
+[1.350s] Invoked command in '/home/badredynex/Project/ROS2_SLAM_PurePursuit/nav_controller' returned '0': PYTHONPATH=/home/badredynex/Project/ROS2_SLAM_PurePursuit/build/nav_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/badredynex/Project/ROS2_SLAM_PurePursuit/install/nav_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/nav_controller build --build-base /home/badredynex/Project/ROS2_SLAM_PurePursuit/build/nav_controller/build install --record /home/badredynex/Project/ROS2_SLAM_PurePursuit/build/nav_controller/install.log --single-version-externally-managed install_data

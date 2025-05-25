@@ -1,37 +1,73 @@
 # File: rviz/multi_robot.rviz
-# A simple RViz configuration to visualize multiple robots
+# A simple RViz configuration to visualize multiple TurtleBot3 robots
+
 Visualization Manager:
   Class: "rviz/VisualizationManager"
+
   Displays:
+    # ───────────────────────────────────────────────────────────────
+    # 1) Grid on the “map” frame
+    # ───────────────────────────────────────────────────────────────
     - Name: Grid
       Class: "rviz/Grid"
       Enabled: true
       Properties:
         Plane Cell Count: 10
         Line Style: Lines
+
+    # ───────────────────────────────────────────────────────────────
+    # 2) TF Frames
+    # ───────────────────────────────────────────────────────────────
     - Name: TF
       Class: "rviz/TF"
       Enabled: true
+
+    # ───────────────────────────────────────────────────────────────
+    # 3) Robot 0 Odometry (visualize as Odometry arrows in RViz)
+    # ───────────────────────────────────────────────────────────────
     - Name: Robot 0 Odometry
-      Class: "rviz/Path"
+      Class: "rviz/Odometry"
       Enabled: true
       Topic: "/robot_0/odom"
       Color: 100; 150; 255
+
+    # ───────────────────────────────────────────────────────────────
+    # 4) Robot 1 Odometry
+    # ───────────────────────────────────────────────────────────────
     - Name: Robot 1 Odometry
-      Class: "rviz/Path"
+      Class: "rviz/Odometry"
       Enabled: true
       Topic: "/robot_1/odom"
       Color: 255; 100; 150
+
+    # ───────────────────────────────────────────────────────────────
+    # 5) Global Map (from SLAM Toolbox)
+    # ───────────────────────────────────────────────────────────────
     - Name: Global Map
       Class: "rviz/Map"
       Enabled: true
       Topic: "/robot_0/map"
-    - Name: Path Planner
-      Class: "rviz/Path"
-      Enabled: true
-      Topic: "/robot_0/path"
 
-    # Add additional Path and Pose markers per robot as needed
+    # ───────────────────────────────────────────────────────────────
+    # 6) Path Planner
+    #    – Only uncomment if you publish a nav_msgs/Path on /robot_0/path
+    # ───────────────────────────────────────────────────────────────
+    # - Name: Path Planner
+    #   Class: "rviz/Path"
+    #   Enabled: true
+    #   Topic: "/robot_0/path"
+    #   Color: 50; 200; 50
 
-Global Options:
-  Fixed Frame: world
+    # ───────────────────────────────────────────────────────────────
+    # 7) Robot 0 Pose Marker
+    #    – If you publish a PoseStamped (e.g. goal) on /robot_0/goal_pose,
+    #      you can visualize it in RViz:
+    # ───────────────────────────────────────────────────────────────
+    # - Name: Robot 0 Goal
+    #   Class: "rviz/Marker"
+    #   Enabled: true
+    #   Marker Topic: "/robot_0/goal_marker"
+    #   Color: 255; 255; 0
+
+  Global Options:
+    Fixed Frame: map

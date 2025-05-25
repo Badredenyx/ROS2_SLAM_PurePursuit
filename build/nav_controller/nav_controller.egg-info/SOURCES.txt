@@ -8,6 +8,7 @@ setup.py
 ../build/nav_controller/nav_controller.egg-info/requires.txt
 ../build/nav_controller/nav_controller.egg-info/top_level.txt
 ../build/nav_controller/nav_controller.egg-info/zip-safe
+launch/multi_robot.launch.py
 nav_controller/__init__.py
 nav_controller/code.py
 nav_controller/control.py
