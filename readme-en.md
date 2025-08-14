@@ -46,9 +46,6 @@ Run the PathPlanning-Tracking package.
 
 Then, set the target point via rviz2.
 
-# YouTube Preview & Usage Video
-https://youtu.be/r_2mMyaLLaI
-
 ## Requirements
 
 - ROS2 - Humble
